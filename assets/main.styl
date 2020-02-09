@@ -1,0 +1,19 @@
+@tailwind base;
+body
+  color theme('colors.indigo.80')
+  font-weight 700
+a
+  color theme('colors.indigo.80')
+  &:hover, &:focus
+    color theme('colors.purple.100')
+    //text-decoration underline
+@tailwind components;
+@tailwind utilities;
+
+.container
+  max-width: 1200px
+  margin-left: auto
+  margin-right: auto
+
+.bg-body
+  background-color: #f7fafc
