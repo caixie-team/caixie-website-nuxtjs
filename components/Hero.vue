@@ -52,7 +52,7 @@
 
     <div class="items-center mt-10 sm:mt-20 sm:inline-flex">
       <div class="flex items-stretch justify-center items-center md:clearfix md:block">
-        <p-button type="a" variant="primary" class="w-48" href="http://caixiekeji.mikecrm.com/VtX7k3">
+        <p-button type="a" class="w-48" href="http://caixiekeji.mikecrm.com/VtX7k3">
           即刻开工
         </p-button>
       </div>

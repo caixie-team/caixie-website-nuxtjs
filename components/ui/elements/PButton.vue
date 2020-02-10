@@ -4,6 +4,7 @@
   import TButtonTheme from '../themes/default/TButton'
 
   const {
+    baseClass,
     defaultClass,
     primaryClass,
     secondaryClass,
@@ -16,7 +17,7 @@
     largeSizeClass,
     smallSizeClass,
   } = TButtonTheme
-  const baseClass = 'btn btn-primary'
+  // const baseClass = 'btn btn-primary'
   export default {
     name: 'PButton',
 
@@ -292,7 +293,7 @@
     },
   }
 </script>
-<style lang="stylus" scoped>
+<style lang="stylus">
   .btn
     @apply rounded border-none cursor-pointer inline-block font-bold m-0 outline-none text-center
     font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
@@ -304,21 +305,12 @@
     white-space: nowrap;
     overflow: hidden;
     &-primary
-      background-color: #512da8;
-      box-shadow: 0 4px 4px -4px rgba(0,0,0,0.32);
-      color: #fff;
+      background-color: #fff;
+      box-shadow: 0 0 0 1px rgba(20,11,47,0.12), 0 4px 4px -4px rgba(0,0,0,0.32);
+      color: #24124d;
       height: 40px;
       line-height: 40px;
-      text-decoration: none
+      text-decoration: none;
       &:hover
-        @apply opacity-90
-    &-secondary
-        background-color: #fff;
-        box-shadow: 0 0 0 1px rgba(20,11,47,0.12), 0 4px 4px -4px rgba(0,0,0,0.32);
-        color: #24124d;
-        height: 40px;
-        line-height: 40px;
-        text-decoration: none;
-        &:hover
-          box-shadow: 0 0 0 1px rgba(20,11,47,0.32), 0 4px 4px -4px rgba(0,0,0,0.32);
+        box-shadow: 0 0 0 1px rgba(20,11,47,0.32), 0 4px 4px -4px rgba(0,0,0,0.32);
 </style>

@@ -7,7 +7,7 @@
       让概念变成现实，让成功更近一步！
     </p>
     <div class="items-center justify-center mt-8 sm:flex">
-      <p-button type="a" variant="primary" href="http://caixiekeji.mikecrm.com/VtX7k3">即刻开工</p-button>
+      <p-button type="a" href="http://caixiekeji.mikecrm.com/VtX7k3">即刻开工</p-button>
       <div class="xl:ml-4 mt-4 sm:mt-0">
         <p-button type="a" variant="secondary" href="https://w.caixie.top/home/menu/view/17/">服务协议</p-button>
       </div>

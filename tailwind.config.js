@@ -10,6 +10,8 @@ const BOX_SHADOW_LIFTED = `0 16px 24px -8px rgba(${COLORS.indigoRgb}, .32)`;
 const BOX_SHADOW_LARGE = `0 16px 40px -4px rgba(${COLORS.indigoRgb}, .2)`;
 // Focus style
 const BOX_SHADOW_FOCUS = `0 0 0 3px ${COLORS.focus}`;
+const BOX_SHADOW_BUTTON = `0 0 0 1px rgba(20, 11, 47, 0.12), 0 4px 4px -4px rgba(0, 0, 0, .32)`
+const BOX_SHADOW_BUTTON_HOVER = `0 0 0 1px rgba(20, 11, 47, 0.32), 0 4px 4px -4px rgba(0, 0, 0, .32)`
 module.exports = {
   prefix: '',
   important: false,
@@ -234,6 +236,8 @@ module.exports = {
       lifted: BOX_SHADOW_LIFTED,
       large: BOX_SHADOW_LARGE,
       focus: BOX_SHADOW_FOCUS,
+      button: BOX_SHADOW_BUTTON,
+      buttonHover: BOX_SHADOW_BUTTON_HOVER
     },
     container: {},
     cursor: {
