@@ -5,7 +5,7 @@
       服务范围
     </span>
     <p class="mt-8 mb-12 font-medium text-gray-700 sm:mt-4 sm:text-xl">
-      <span class="block font-normal text-indigo-80"> 从概念到现实需要大量的时间和工作，你需要一个补充你技能的团队</span>
+      <span class="block font-light text-indigo-80"> 从概念到现实需要大量的时间和工作，你需要一个补充你技能的团队</span>
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1">
       <div class="flex flex-col justify-center text-gray-700 text-center bg-white px-8 py-2 m-4 h-40 rounded shadow hover:shadow-large transition-shadow duration-700 ease-in-out " v-for="(item, key) in services" :key="key">
