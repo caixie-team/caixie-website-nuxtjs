@@ -46,9 +46,6 @@
 [https://caixie.top](https://caixie.top)
 [Sketch UI 设计稿源文件]() -- 待上传
 
-# caixie-team-website
-
-> My wicked Nuxt.js project
 
 ## Build Setup
 
