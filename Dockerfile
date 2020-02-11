@@ -1,6 +1,3 @@
-# Dockerfile 文件
-#FROM mhart/alpine-node:12
-#FROM mhart/alpine-node:12
 FROM node:10-alpine
 # 设置镜像作者
 MAINTAINER baisheng <baisheng@gmail.com>
