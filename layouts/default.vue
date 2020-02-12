@@ -3,15 +3,15 @@
     <Navbar />
     <nuxt />
     <Footer />
-    <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?fcfe96246a132f573efe115ab4de90da";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    </script>
+<!--    <script>-->
+<!--      var _hmt = _hmt || [];-->
+<!--      (function() {-->
+<!--        var hm = document.createElement("script");-->
+<!--        hm.src = "https://hm.baidu.com/hm.js?fcfe96246a132f573efe115ab4de90da";-->
+<!--        var s = document.getElementsByTagName("script")[0];-->
+<!--        s.parentNode.insertBefore(hm, s);-->
+<!--      })();-->
+<!--    </script>-->
   </div>
 </template>
 
@@ -19,6 +19,13 @@
   import Navbar from "../components/Navbar";
   import Footer from "../components/Footer"
   export default {
+    head: {
+      script: [
+        {
+          src: 'https://hm.baidu.com/hm.js?fcfe96246a132f573efe115ab4de90da'
+        }
+      ]
+    },
     components: {
       Navbar,
       Footer

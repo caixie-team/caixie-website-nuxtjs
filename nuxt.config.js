@@ -34,6 +34,7 @@ export default {
   plugins: [
     { src: '~/plugins/directives', mode: 'client'},
     { src: '~/plugins/ui'},
+    { src: '~/plugins/analytics.js', mode: 'client'}
   ],
   /*
   ** Nuxt.js dev-modules
