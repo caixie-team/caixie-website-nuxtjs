@@ -9,7 +9,7 @@
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1">
       <div class="flex flex-col justify-center text-gray-700 text-center bg-white px-8 py-2 m-4 h-40 rounded shadow hover:shadow-large transition-shadow duration-700 ease-in-out " v-for="(item, key) in services" :key="key">
-        <span class="font-bold text-indigo-100">{{item.title}}</span>
+        <span class="font-bold text-indigo-100 text-xl">{{item.title}}</span>
         <p class="font-normal text-indigo-60">{{item.desc}}</p>
       </div>
     </div>
