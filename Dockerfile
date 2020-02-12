@@ -26,5 +26,5 @@ RUN yarn --frozen-lockfile --non-interactive
 COPY . /app
 RUN yarn build
 
-EXPOSE 3000
+EXPOSE 80
 CMD ["yarn", "start"]
