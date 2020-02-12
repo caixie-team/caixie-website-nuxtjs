@@ -18,12 +18,12 @@
           <div class="block mt-3 text-sm text-center text-indigo-60 sm:text-left sm:inline-block sm:mt-0 sm:ml-3">
             ©2020 采撷科技
           </div>
-          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-          <span id="busuanzi_container_site_pv"
-                class="font-light block mt-3 text-xs text-center text-indigo-60 sm:text-left sm:inline-block sm:mt-0 sm:ml-3">
-            👀
-            <span id="busuanzi_value_site_pv"></span>次
-          </span>
+<!--          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
+<!--          <span id="busuanzi_container_site_pv"-->
+<!--                class="font-light block mt-3 text-xs text-center text-indigo-60 sm:text-left sm:inline-block sm:mt-0 sm:ml-3">-->
+<!--            👀-->
+<!--            <span id="busuanzi_value_site_pv"></span>次-->
+<!--          </span>-->
 
         </div>
 
