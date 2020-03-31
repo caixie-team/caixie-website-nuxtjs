@@ -28,9 +28,9 @@
                 <a href="javascript:;"  class="menuItem" v-else>{{item.name}}</a>
               </li>
             </ul>
-<!--            <a href="/" class="ml-8 font-bold text-indigo-100 hover:text-purple-100">-->
-<!--              <span title="translation missing: en.inspiration" class="translation_missing">团队</span>-->
-<!--            </a>-->
+            <!--            <a href="/" class="ml-8 font-bold text-indigo-100 hover:text-purple-100">-->
+            <!--              <span title="translation missing: en.inspiration" class="translation_missing">团队</span>-->
+            <!--            </a>-->
           </div>
           <div class="relative flex items-baseline ml-10">
             <a href="/users/sign_in"
@@ -72,14 +72,14 @@
             </a>
             <a href="/" class="mt-8 block font-bold  hover:text-purple-100">服务</a>
             <a
-                    href="https://changelog.gitinlog.com"
-                    class="mt-4 block font-bold text-gray-900 hover:text-gray-700">
+              href="https://changelog.gitinlog.com"
+              class="mt-4 block font-bold text-gray-900 hover:text-gray-700">
 
               流程
             </a>
             <a href="/" class="mt-4 block font-bold text-gray-900 hover:text-gray-700">
               <span
-                      title="translation missing: en.inspiration" class="translation_missing">团队</span>
+                title="translation missing: en.inspiration" class="translation_missing">团队</span>
             </a>
           </div>
         </div>

@@ -9,13 +9,19 @@ services:
       - default
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.website.entrypoints=web, web-secure"
-      - "traefik.http.routers.website.tls=true"
-      - "traefik.http.routers.website.rule=Host(`caixie.top`, `www.caixie.top`, `caixie.ltd`)"
-      - "traefik.http.routers.app_https.service=website"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.website0.middlewares=https-redirect@file"
+      - "traefik.http.routers.website0.entrypoints=http"
+      - "traefik.http.routers.website0.rule=Host(`caixie.top`, `www.caixie.top`, `caixie.ltd`)"
+      - "traefik.http.routers.website1.middlewares=https-redirect@file"
+      - "traefik.http.routers.website1.entrypoints=https"
+      - "traefik.http.routers.website1.tls=true"
+      - "traefik.http.routers.website1.rule=Host(`caixie.top`, `www.caixie.top`, `caixie.ltd`)"
+      - "traefik.http.services.websitebackend.loadbalancer.server.scheme=http"
+      - "traefik.http.services.websitebackend.loadbalancer.server.port=80"
+        #- "traefik.http.routers.app_https.service=website"
 #      - "traefik.http.services.website.loadbalancer.server.port=3000"
 #      - "traefik.tcp.services.website.loadbalancer.server.port=3000"
-      - "traefik.docker.network=traefik"
       #volumes:
       #- ./:/app
 networks:
