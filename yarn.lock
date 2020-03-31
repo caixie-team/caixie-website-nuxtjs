@@ -1062,10 +1062,10 @@
     jimp-compact "^0.8.0"
     workbox-cdn "^4.3.1"
 
-"@nuxtjs/tailwindcss@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.npm.taobao.org/@nuxtjs/tailwindcss/download/@nuxtjs/tailwindcss-1.3.2.tgz#0c57bc7495612c54f072314409ac2aaf4d83dc0b"
-  integrity sha1-DFe8dJVhLFTwcjFECawqr02D3As=
+"@nuxtjs/tailwindcss@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.npm.taobao.org/@nuxtjs/tailwindcss/download/@nuxtjs/tailwindcss-1.3.3.tgz#8d44e1b81c561c23cd319cb8520f3000b87f2f57"
+  integrity sha1-jUThuBxWHCPNMZy4Ug8wALh/L1c=
   dependencies:
     consola "^2.11.3"
     fs-extra "^8.1.0"
